@@ -1,7 +1,5 @@
 # Jackfruit: UDP Network Monitoring with SDN
 
-Navneet Sai Murali · PES1UG25AM503
-
 This simplified project implements Topic 6: four hosts send UDP telemetry to a
 central server. An SDN controller compares host reports with switch port and flow
 statistics, raises alerts, and optionally quarantines a confirmed heavy sender.
