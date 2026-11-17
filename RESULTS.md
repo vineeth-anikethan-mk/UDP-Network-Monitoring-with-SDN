@@ -1,7 +1,5 @@
 # Results — complete using your own Ubuntu runs
 
-Navneet Sai Murali · PES1UG25AM503
-
 No measured Mininet results are supplied. Fill this before submission.
 
 Run date: ______   Ubuntu/Python: ______   VM RAM/CPU: ______
