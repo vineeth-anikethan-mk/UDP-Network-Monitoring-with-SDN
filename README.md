@@ -7,19 +7,7 @@ A small Tkinter table displays the current state.
 
 ## Architecture
 
-```mermaid
-flowchart TD
-    C["OS-Ken controller, TCP 6653"] -. OpenFlow 1.3 .-> S1[s1]
-    C -. OpenFlow 1.3 .-> S2[s2]
-    C -. OpenFlow 1.3 .-> S3[s3]
-    S1 --- H5["h5: UDP collector, port 9999"]
-    S1 --- S2
-    S1 --- S3
-    S2 --- H1[h1]
-    S2 --- H2[h2]
-    S3 --- H3[h3]
-    S3 --- H4[h4]
-```
+![architecture](./image-1.png)
 
 All links are 10 Mbps. h1–h4 run agents; h5 is the collector. Addresses are
 10.0.0.1–10.0.0.5. Host ports: h1=s2:1, h2=s2:2, h3=s3:1, h4=s3:2, h5=s1:1.
